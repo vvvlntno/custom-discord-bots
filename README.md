@@ -13,3 +13,14 @@ DISCORD_TOKEN=YOUR_DISCORD_TOKEN
 LEVEL_CHANNEL_ID=YOUR_LEVEL_CHANNEL_ID
 GUILD_ID=YOUR_SERVER_ID
 ```
+
+## Setup reaction-role bot
+1. Create message with reaction role information
+2. Create emoji with same names as roles
+3. Insert names into list `role_names` in `reaction-role/main.py`
+4. Create a .env file and copy this code with your corresponding values:
+
+```
+DISCORD_TOKEN=YOUR_DISCORD_TOKEN
+REACTION_ROLE_MESSAGE_ID=YOUR_REACTION_ROLE_MESSAGE_ID
+```
