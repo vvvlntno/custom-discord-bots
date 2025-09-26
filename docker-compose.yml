@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  level-bot:
+    build: ./level
+    container_name: level-bot
+    restart: unless-stopped
+    env_file:
+      - ./level/.env
+    command: python main.py
+
+  reaction-role-bot:
+    build: ./reaction-role
+    container_name: reaction-role-bot
+    restart: unless-stopped
+    env_file:
+      - ./reaction-role/.env
+    command: python main.py
