@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run level bot",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/level/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "DISCORD_TOKEN": "ADD YOUR DISCORD TOKEN",
+                "INVITE_LINK": "ADD YOUR BOT INVITE LINK",
+                "GUILD_ID": "ADD YOUR DISCORD SERVER ID",
+                "LEVEL_CHANNEL_ID": "ADD THE LEVEL CHANNEL ID",
+            }
+        }
+    ]
+}
