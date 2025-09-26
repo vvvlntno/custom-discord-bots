@@ -13,6 +13,19 @@
                 "GUILD_ID": "ADD YOUR DISCORD SERVER ID",
                 "LEVEL_CHANNEL_ID": "ADD THE LEVEL CHANNEL ID",
             }
+        },
+        {
+            "name": "Run reaction-role bot",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/reaction-role/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "DISCORD_TOKEN": "ADD YOUR DISCORD TOKEN",
+                "INVITE_LINK": "ADD YOUR BOT INVITE LINK",
+                "GUILD_ID": "ADD YOUR DISCORD SERVER ID",
+                "LEVEL_CHANNEL_ID": "ADD THE LEVEL CHANNEL ID",
+            }
         }
     ]
 }
